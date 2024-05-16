@@ -12,6 +12,20 @@ body{
     /* position: fixed;  */
 }
 
+.Navbar .Profile{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+}
+
+.Navbar .Profile img{
+    padding-top: 7px;
+}
+
+.Navbar .Profile ul{
+    list-style: none;
+}
+
 .Navbar .menunav{
     display: flex;
     padding-top: 20px;
