@@ -4,10 +4,10 @@ body{
     background-color: antiquewhite;
 }
 
-.login {
+.register {
     padding: 220px;
 }
-#loginForm{
+#registerForm{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,14 +19,15 @@ body{
 }
 
 
-#loginForm ul li{
+#registerForm ul li{
     display: flex;
     list-style-type: none;
     margin-left: -38px;
     padding-bottom: 8%;
 }
 
-#loginForm ul li button{
+#registerForm ul li button{
     display: flex;
-    margin-left: 35%;
+    margin-left: 30%;
+    margin-top: 20px;
 }

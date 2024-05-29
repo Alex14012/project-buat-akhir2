@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.Navbar{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    background-color: white;
+    /* position: fixed;  */
+}
+
+.Navbar .Profile{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+}
+
+.Navbar .Profile img{
+    padding-top: 7px;
+}
+
+.Navbar .Profile ul{
+    list-style: none;
+}
+
+.Navbar .menunav{
+    display: flex;
+    padding-top: 20px;
+    margin-right: 5px;
+    
+}
+
+.Navbar .menunav a{
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+
+.Navbar img{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+
+.todotask{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    width: 220px;
+    margin-left: 45%;
+}
+
+.todotask .task{
+    padding-right: 30px;
+}
+
+.todotask .Header{
+    padding-right: 30px;
+}
+
+.todotask .Header{
+    margin-left: 42px;
+}
+
+.todotask ul{
+    list-style-type: none;
+}
+
+.todotask .task input{
+    border: solid;
+    border-color: white;
+    border-radius: 5px;
+}

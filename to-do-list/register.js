@@ -10,7 +10,7 @@ document.getElementById("registerForm").addEventListener("submit", (event) => {
         localStorage.setItem("password", password.value)
 
         alert("User Succesfully Registered")
-        window.location.href = "home.html"
+        window.location.href = "index.html"
 
         console.log("Users Registered")
     }
